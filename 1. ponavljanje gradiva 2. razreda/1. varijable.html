@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
         // const, let, var, function, for... su ključne riječi
@@ -28,6 +30,25 @@
         const examPoints = [50, 32, 80]
         // polje u koje smo spremili vrstu podatka tekst
         const studentNames = ['Ljubo', 'Dora']
+        // polje može biti prazno
+        const emptyArray = []
+        // objekti se koriste za spremanje više vrijednosti
+        // unutar objekta vrijednosti se pišu kao par, svojstvo: vrijednost (eng. property:value)
+        // npr color: 'Yellow'
+        // objekt može imati 0,1 ili više svojstava
+        const chair = {
+            color: 'Yellow',
+            material: 'Fabric',
+            hasWheels: true,
+            numberOfWheels: 4
+        }
+        // prazan objekat, tj. bez svojstava
+        const emptyObject = {}
+        // ako trebamo kobminirati varijable i text, koristimo ``
+        console.log(`Char color is ${chair.color}, material is ${chair.material}`)
+        // ako je obični tekst bez miješanja varijabli onda mogu ravni navodnici
+        const textWithoutValues = 'This is text without values'
     </script>
 </body>
+
 </html>
