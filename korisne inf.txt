@@ -1,0 +1,4 @@
+formatiranje koda u vs code-u: alt+shift+f
+kopiranje linije koda prema dolje: alt+shift+strelica_prema_dolje
+spremanje promjena u kodu: ctrl+s
+poništavanje zadnje radnje/radnjih ctrl + z
