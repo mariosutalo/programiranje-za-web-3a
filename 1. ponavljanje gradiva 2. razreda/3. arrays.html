@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const evenNumbers = [2, 4, 6, 8, 10, 12]
+        const cities = ['Osijek', 'Zagreb', 'Split', 'Opuzen']
+        const cars = [{ brand: 'Audi', name: 'a4' }, { brand: 'Opel', name: 'Corsa' }]
+        // pravilno je stavke polja dodavati i ovako
+        const cars1 = [
+            { brand: 'Audi', name: 'a4' },
+            { brand: 'Opel', name: 'Corsa' }
+        ]
+        // sa sintaksom cities[0] pristupamo prvom elementu u polju
+        // 0,1,2,... su indeksi polja
+        const cityInFirstPlaceInArray = cities[0]
+        console.log(`Grad na prvom mjestu u polju je: ${cityInFirstPlaceInArray}`)
+        const forthEvenNumber = evenNumbers[3]
+        console.log(`Broj na 4. mjestu u polju je ${forthEvenNumber}`)
+        // alternativna verzija, sadržaju polja pristupamo direktno
+        // bez pravljenja varijable
+        console.log(`Broj na 4. mjestu u polju je ${evenNumbers[3]}`)
+        // ovdje ce biti undefined jer pristupamo indexu polja koji ne postoji
+        console.log(`Grad na petom mjestu u polju je: ${cities[4]}`)
+        evenNumbers.push(14)
+        console.log(`Dodani broj u polju je ${evenNumbers[6]}`)
+    </script>
+</body>
+
+</html>
