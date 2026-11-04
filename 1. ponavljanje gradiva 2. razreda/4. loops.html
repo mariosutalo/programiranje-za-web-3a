@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Zadatak 1: Ispisati prvih 10 prirodnih brojeva u konzolu
+        console.log('1')
+        console.log('2')
+        console.log('3')
+        console.log('4')
+        console.log('5')
+        console.log('6')
+        console.log('7')
+        console.log('8')
+        console.log('9')
+        console.log('10')
+        // Zadatak 1 - rješenje pomoću for petlje
+        // 1. prvi prvom obilasku petlje radi se slijedeće:
+        // 1.1 pravimo varijablu sa nazivom index koja ima početnu vrijednost
+        // 1.2 provjeravamo da li je uvjet index <= 5 istinit
+        // 1.2.1 ako je uvjet istinit, izvršava se kod unutar zagrada
+        // 1.2.2 ako je uvjet lažan, for petlja završava sa radom
+        // 1.3 izvršava se index++
+        // 2. drugi obilazak je isti kao prvi, samo se ne pravi varijabla index, tj. let index = 1 se ne izvršava
+        // 3. svi ostali obilasci su isti kao drugi, samo se vrijednost index-a povećava za 1
+        // 4. kada je index = 6, index <= 5 je false i petlja završava sa radom
+        // index++ je isto kao index = index + 1
+        for (let index = 1; index <= 5; index++) {
+            console.log(index)   
+        }
+
+        // Zadatak 2: Ispisati prvih 5 parnih brojeva u konzolu
+        // pomoću for petlje
+        for (let index = 2; index <= 10; index+=2) {
+            console.log(index)   
+        }
+
+    </script>
+</body>
+</html>
