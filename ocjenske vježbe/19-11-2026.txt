@@ -1,0 +1,8 @@
+Zadatak 1 – Podaci o učeniku
+Napravi objekt student sa svojstvima name, surname, age i isEnrolled. Ispiši sve podatke u konzolu koristeći template literal.
+
+Zadatak 2 – Omiljeni filmovi
+Napravi polje s najmanje četiri naziva filmova. Ispiši drugi i zadnji film, dodaj još jedan film pomoću push() pa ispiši cijelo polje.
+
+Zadatak 3 – Brojevi u petlji
+Pomoću for petlje ispiši u konzolu prvih 10 neparnih brojeva.
